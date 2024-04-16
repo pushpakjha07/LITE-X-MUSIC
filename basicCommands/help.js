@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://discord.gg/FUEHs7RCqz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [RTX](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [LITE X CHEATS](https://discord.gg/NF6KWYf4PE)**\n\n__**COMMANDS :**__ `)
       .addFields(
         // Basic commands category
         {
@@ -57,21 +57,21 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1170652474563117138/1224660177039396876/MULTI_MUSIC_v1.5.png?ex=661e4cab&is=660bd7ab&hm=f7a542462fabaf9c1530ece5aa72597cff3ac032876bba46df5ddba7e122ea99&`);
+      .setImage(`https://cdn.discordapp.com/attachments/1223167033789780028/1224344049004318720/standard.gif?ex=662f9b40&is=661d2640&hm=b8804b85438aad2b0a0d874ba5ab16a33d99a094adfa1e943aa859ee24e5386a&`);
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setURL('https://youtube.com/@litexcheats?si=W-g-7MzMGS3kFvM0')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/FUEHs7RCqz')
+      .setURL('https://discord.gg/NF6KWYf4PE')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://replit.com/@BEASTGAMERS1/MULTI-MUSIC-BOT-v200?v=1')
+      .setLabel('Panel')
+      .setURL('https://discord.gg/NF6KWYf4PE')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
