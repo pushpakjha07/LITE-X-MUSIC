@@ -9,7 +9,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖HII IAM LITE X CHEATS!\n ❤️ [RTX GAMING](${youtubeLink})\n 💙 [Atstreak](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n 🤖HII IAM LITE X CHEATS!\n ❤️ [LITE X CHEATS](${youtubeLink})\n 💙 [PUSHPAK](${InstagramLink})`)
             .setTimestamp();
 
 
